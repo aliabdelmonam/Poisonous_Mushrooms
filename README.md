@@ -20,10 +20,3 @@ This repository contains a machine learning classification project demonstrating
 ### 4. **Pipeline Integration**
 - **scikit-learn Pipelines**: Combines preprocessing and model training steps into a single pipeline to streamline workflows and ensure reproducibility.
 
-## Installation
-
-Clone this repository and install the required packages using pip:
-
-```bash
-cd Poisonous_Mushroomsv2.ipynb
-pip install -r requirements.txt
