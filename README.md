@@ -25,5 +25,5 @@ This repository contains a machine learning classification project demonstrating
 Clone this repository and install the required packages using pip:
 
 ```bash
-cd Poisonous_Mushrooms
+cd Poisonous_Mushroomsv2.ipynb
 pip install -r requirements.txt
