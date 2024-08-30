@@ -1,25 +1,40 @@
-# Machine Learning Classification Project
+# Machine Learning Classification with XGBoost, Bayesian Optimization, and Scikit-Learn Pipelines
 
 ## Overview
 
-This repository contains a machine learning classification project demonstrating the use of XGBoost and CatBoost classifiers, hyperparameter tuning with Bayesian optimization, and the implementation of scikit-learn pipelines. The project also includes data preprocessing steps such as one-hot encoding and handling null values with `SimpleImputer`.
+This project demonstrates a complete machine learning pipeline for a classification problem using XGBoost. The pipeline includes:
+- **Outlier Detection**: Isolation Forest to detect and remove anomalies in the data.
+- **Data Encoding**: Ordinal Encoding to handle categorical features.
+- **Hyperparameter Tuning**: Bayesian Optimization for fine-tuning XGBoost hyperparameters.
+- **Modeling**: XGBoost for classification.
 
-## Project Components
+The entire workflow is implemented using scikit-learn pipelines to ensure a smooth, reproducible, and modular machine learning process.
 
-### 1. **Data Preprocessing**
-- **One-Hot Encoding**: Categorical features are transformed into binary vectors.
-- **SimpleImputer**: Handles missing values by imputing them with the mean (for numerical features) or the most frequent value (for categorical features).
+## Table of Contents
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Dataset](#dataset)
+- [Preprocessing](#preprocessing)
+- [Model Training](#model-training)
+- [Hyperparameter Tuning](#hyperparameter-tuning)
+- [Evaluation](#evaluation)
+- [Usage](#usage)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
 
-### 2. **Machine Learning Models**
-- **XGBoost**: An efficient and scalable gradient boosting framework.
-- **CatBoost**: A gradient boosting library that handles categorical features effectively.
-
-### 3. **Hyperparameter Tuning**
-- **Bayesian Optimization**: Used for optimizing hyperparameters to improve model performance.
-
-### 4. **Pipeline Integration**
-- **scikit-learn Pipelines**: Combines preprocessing and model training steps into a single pipeline to streamline workflows and ensure reproducibility.
-
-### 5. **Accuracy**
--  **.966779 Acuraccy Score**
-
+## Project Structure
+```plaintext
+├── data
+│   ├── train.csv                # Training dataset
+│   ├── test.csv                 # Testing dataset
+├── notebooks
+│   ├── data_preprocessing.ipynb # Jupyter notebook for data preprocessing
+│   ├── model_training.ipynb     # Jupyter notebook for model training and evaluation
+├── src
+│   ├── pipeline.py              # Script for building the pipeline
+│   ├── model.py                 # Script for training the model
+│   ├── tuning.py                # Script for hyperparameter tuning
+├── requirements.txt             # Python dependencies
+├── README.md                    # Project README file
+└── LICENSE                      # Project License
