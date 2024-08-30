@@ -1,4 +1,4 @@
-# Machine Learning Classification with XGBoost, Bayesian Optimization, and Scikit-Learn Pipelines
+# Machine Learning Classification with XGBoost
 
 ## Overview
 
