@@ -20,8 +20,8 @@ This repository contains a machine learning classification project demonstrating
 ### 4. **Pipeline Integration**
 - **scikit-learn Pipelines**: Combines preprocessing and model training steps into a single pipeline to streamline workflows and ensure reproducibility.
 
-### 5. **Accuracy**
--  .96 on test dataset
+## **Performance Metric**
+-  **Accuracy**:  .96
 ## Link Notebook
 -  [Kaggle Notebook](https://www.kaggle.com/code/aliabdelmenam/poisonous-mushroomsv3)
 -  [Kaggle competition](https://www.kaggle.com/competitions/playground-series-s4e8)
