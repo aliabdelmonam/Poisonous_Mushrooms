@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a machine learning classification project demonstrating the use of XGBoost, hyperparameter tuning with Bayesian optimization, and the implementation of scikit-learn pipelines. The project also includes data preprocessing steps such as Ordinal encoding and handling null values with `SimpleImputer`.
+This repository contains a machine learning classification project demonstrating the use of `XGBoost`, hyperparameter tuning with `Bayesian optimization`, and the implementation of scikit-learn pipelines. The project also includes data preprocessing steps such as Ordinal encoding and handling null values with `SimpleImputer`.
 
 ## Project Components
 
